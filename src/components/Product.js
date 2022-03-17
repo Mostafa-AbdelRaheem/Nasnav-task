@@ -4,7 +4,7 @@ class Product extends Component {
   render() {
     console.log("the this.props", this.props.product);
     return (
-      <div className="ProductContainer">
+      <div className="productContainer">
         {this.props.product && (
           <>
             <div className="visualContainer">
@@ -94,24 +94,27 @@ class Product extends Component {
                 </div>
               </div>
               <div className="sizeContainer">
-                <h3>Size</h3>
+                <h3 className="sizeHeader">Size</h3>
                 <ul className="sizeList">
                   {this.props.product.size.map((size, index) => (
-                    <li key={index}>{size}</li>
+                    <li className="size" key={index}>
+                      {size}
+                    </li>
                   ))}
                 </ul>
               </div>
               <div className="colorContainer">
+                <h3 className="colorHeader">Color</h3>
                 <ul className="colorList">
                   {this.props.product.color.map((path, index) => (
-                    <li key={index}>
+                    <li className="color" key={index}>
                       <img src={path} />
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="quantityMainContainer">
-                <h3>Quantity</h3>
+                <h3 className="quantityHeader">Quantity</h3>
                 <div className="quantityContainer">
                   <button className="increment">
                     <img src="./images/Path 363.svg" />
