@@ -1,0 +1,140 @@
+import React, { Component } from "react";
+
+class Product extends Component {
+  render() {
+    console.log("the this.props", this.props.product);
+    return (
+      <div className="ProductContainer">
+        {this.props.product && (
+          <>
+            <div className="visualContainer">
+              <div className="mainImageContainer">
+                <img src={this.props.product.image} />
+              </div>
+              <div className="imageRotationContainer">
+                <img src="./images/Group 338.svg" />
+              </div>
+              <div className="galleryContainer">
+                <div className="galleryArrow">
+                  <img src="./images/Path 347.svg" />
+                </div>
+                <ul className="gallery">
+                  {this.props.product.gallery.map((path, index) => (
+                    <li key={index}>
+                      <div className="imageContainer">
+                        <img src={path} />
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+                <div className="galleryArrow">
+                  <img src="./images/Path 346.svg" />
+                </div>
+              </div>
+            </div>
+            <div className="contentContainer">
+              <div className="brandImage">
+                <img src={this.props.product.brandImage} />
+              </div>
+              <div className="description">
+                <p className="text">{this.props.product.description}</p>
+              </div>
+              <div className="category">
+                <p className="categoryText">{this.props.product.category}</p>
+              </div>
+              <div className="reviewsContainer">
+                <div className="starsMainContainer">
+                  {Array(Math.floor(this.props.product.rate))
+                    .fill()
+                    .map((_, i) => (
+                      <div key={i} className="starContainer">
+                        <img className="stars" src="./images/Path 368.svg" />
+                      </div>
+                    ))}
+
+                  {Array(
+                    this.props.product.maxRate -
+                      Math.floor(this.props.product.rate)
+                  )
+                    .fill()
+                    .map((_, i) => (
+                      <div key={i} className="starContainer">
+                        <img className="stars" src="./images/Path 369.svg" />
+                      </div>
+                    ))}
+                </div>
+                <div className="rating">
+                  <p className="ratingText">
+                    {this.props.product.rate} of {this.props.product.maxRate}
+                  </p>
+                </div>
+                <div className="votes">
+                  <p className="votesText">{this.props.product.votes}</p>
+                </div>
+              </div>
+              <div className="priceContainer">
+                {/* <div className="currentPrice"> */}
+                <p className="currentPrice">
+                  {this.props.product.price}
+                  <span className="currency">
+                    {" "}
+                    {this.props.product.currency}
+                  </span>
+                </p>
+                {/* </div> */}
+                <p className="beforePrice">
+                  {this.props.product.price}{" "}
+                  <span className="currency">
+                    {" "}
+                    {this.props.product.currency}
+                  </span>
+                </p>
+                <div className="discountContainer">
+                  <p className="discount">{this.props.product.discount} off</p>
+                </div>
+              </div>
+              <div className="sizeContainer">
+                <h3>Size</h3>
+                <ul className="sizeList">
+                  {this.props.product.size.map((size, index) => (
+                    <li key={index}>{size}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="colorContainer">
+                <ul className="colorList">
+                  {this.props.product.color.map((path, index) => (
+                    <li key={index}>
+                      <img src={path} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="quantityMainContainer">
+                <h3>Quantity</h3>
+                <div className="quantityContainer">
+                  <button className="increment">
+                    <img src="./images/Path 363.svg" />
+                  </button>
+                  <div className="quantity">1</div>
+                  <button className="decrement">
+                    <img src="./images/Path 364.svg" />
+                  </button>
+                </div>
+              </div>
+              <div className="orderContainer">
+                {/* <div className="addToCart"> */}
+                <button className="cartBtn">Add To Cart</button>
+
+                {/* <div className="pickFromStore"> */}
+                <button className="pickBtn">Pickup From Store</button>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+    );
+  }
+}
+
+export default Product;

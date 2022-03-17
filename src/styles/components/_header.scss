@@ -1,0 +1,29 @@
+@import "../helper";
+
+%flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+// %nav-icon {
+//   @extend %flex-row;
+//   padding: 0 5px;
+//   img {
+//     width: 25px;
+//     padding-right: 15px;
+//   }
+//   p {
+//     margin: auto;
+//   }
+// }
+
+// .header {
+//   //
+//   .pathContainer {
+//     height: 84px;
+//     padding: 35px;
+//     .path {
+//       margin: 0;
+//     }
+//   }
+// }

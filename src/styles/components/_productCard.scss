@@ -1,0 +1,92 @@
+%flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productCardContainer {
+  margin: 0 5px;
+  padding: 5px;
+  border: 0.755px solid #ececec;
+  border-radius: 5px;
+
+  .imageContainer {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .description {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .middelContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .priceContainer {
+      width: 95px;
+      max-height: 34px;
+      display: flex;
+      flex-direction: column;
+      .price {
+        color: var(--secondary-color);
+        font-size: 20px;
+        font-weight: bold;
+        span {
+          color: var(--secondary-color);
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+      .discountContainer {
+        display: flex;
+        justify-content: space-between;
+        .beforePrice {
+          position: relative;
+          font-family: Montserrat;
+          font-weight: bold;
+          font-size: 14px;
+          color: #a7a9ac;
+          text-decoration: line-through;
+          span {
+            font-size: 10px;
+            font-weight: normal;
+            color: #a7a9ac;
+          }
+        }
+        .discout {
+          font-family: Montserrat;
+          font-weight: normal;
+          font-size: 10px;
+          background-color: #fff200;
+          padding: 3px 10px;
+        }
+      }
+    }
+  }
+  .reviewsContainer {
+    @extend %flex-row;
+  }
+  .locationContainer {
+    @extend %flex-row;
+  }
+  .locationContainer {
+    width: 100%;
+    .location {
+      display: flex;
+      justify-content: space-evenly;
+      p {
+        font-size: 10px;
+        font-weight: 400;
+        // margin: 5px;
+        span {
+          font-size: 12px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

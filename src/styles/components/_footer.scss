@@ -1,0 +1,128 @@
+@import "../helper";
+
+%flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@include display(footerContainer);
+
+.footerMainContainer {
+  background-color: #3c3c3b;
+  .footerContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footerUpper {
+    @extend%flex-row;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 25px;
+
+    .leftContainer {
+      flex-basis: 45%;
+      padding: 0 20px;
+      border-right: 1px solid #d9d9d9;
+      p {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Montserrat;
+      }
+    }
+
+    .rightContainer {
+      flex-basis: 45%;
+      padding: 0 20px;
+      .searchBox {
+        p {
+          font-size: 18px;
+          color: #ffffff;
+        }
+        .input {
+          background-color: white;
+          // width: 100%;
+          // display: flex;
+          position: relative;
+          // width: 230px;
+          height: 40px;
+          input {
+            position: absolute;
+            //   top: 0;
+            border-style: none;
+            border-radius: 200px;
+            width: 80%;
+            height: 100%;
+            border: none;
+            outline: none;
+            //   text-c: var(--secondary-color);
+            font-size: 16px;
+            // font-weight: bold;
+          }
+          .subscribeBtn {
+            background-color: var(--primary-color);
+            width: 120px;
+            height: 38px;
+            border-radius: 70px;
+            right: 0;
+            z-index: 10;
+            position: absolute;
+            display: flex;
+            p {
+              color: black;
+            }
+          }
+        }
+      }
+      .info {
+        @extend%flex-row;
+
+        .contacts {
+          ul {
+            flex-basis: 60%;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+            li {
+              font-size: 16px;
+              color: white;
+              // margin: 5px 0;
+            }
+          }
+        }
+        .socialMediaContainer {
+          flex-basis: 35%;
+          .socialMedia {
+            display: flex;
+            p {
+              color: white;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footerBottom {
+    @extend%flex-row;
+    .copyrights {
+      color: white;
+    }
+    .payment {
+      margin: auto;
+      img {
+        margin: 0 5px;
+      }
+    }
+    .poweredByContainer {
+      @extend%flex-row;
+      .powerdBy {
+        color: white;
+        margin-right: 10px;
+      }
+    }
+  }
+}
