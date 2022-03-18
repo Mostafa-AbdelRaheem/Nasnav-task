@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Product extends Component {
   render() {
+    // console.log("product props", this.props);
     return (
       <div className="productContainer">
         {this.props.product && (
@@ -126,7 +127,12 @@ class Product extends Component {
               </div>
               <div className="orderContainer">
                 {/* <div className="addToCart"> */}
-                <button className="cartBtn">Add To Cart</button>
+                <button
+                  onClick={() => this.props.onAddingItem(this.props.product.id)}
+                  className="cartBtn"
+                >
+                  Add To Cart
+                </button>
 
                 {/* <div className="pickFromStore"> */}
                 <button className="pickBtn">Pickup From Store</button>

@@ -97,6 +97,20 @@
       margin: auto 0;
       .cart {
         @extend %headerMiddelIcons;
+        position: relative;
+        .backgourdContainer {
+          position: absolute;
+          left: 17px;
+          top: 9px;
+        }
+        .cartItemsQuantity {
+          position: absolute;
+          left: 21px;
+          top: 11px;
+          margin: 0;
+          font-size: 10px;
+          font-weight: 600;
+        }
       }
       .wishList {
         @extend %headerMiddelIcons;

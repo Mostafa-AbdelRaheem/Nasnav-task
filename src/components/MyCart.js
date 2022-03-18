@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import CartItem from "./CartItem";
 
 class MyCart extends Component {
   state = {};
   render() {
+    console.log("myCart props", this.props);
     return (
       <div className="myCartMainContainer">
         <div className="overLay"></div>
@@ -12,32 +14,11 @@ class MyCart extends Component {
           </div>
           <h1 className="mainCartTitle">My Cart</h1>
           <h3 className="mainCartHeader">Cart Summary</h3>
-          <div className="purschasedItemCardContainer">
-            <div className="purschasedItemCard">
-              <div className="imageContainer">
-                <img src="./dynamic/Group 1441@2x.png" />
-              </div>
-              <div className="contentContainer">
-                <div className="description">
-                  Lorem ipsum dolor sit amet, consecte adipiscing elit.
-                </div>
-                <div className="quantity">
-                  Quantity <span>1</span>
-                </div>
-                {/* <div className="price"></div> */}
-                <p className="currentPrice">
-                  {/* {this.props.product.price} */}
-                  9,999
-                  <span className="currency">
-                    {" "}
-                    LE
-                    {/* {this.props.product.currency} */}
-                  </span>
-                </p>
-                <button className="removeBtn">Remove</button>
-              </div>
-            </div>
-          </div>
+          {this.props.myCart.map((item, index) => (
+            <CartItem key={index} itemData={item} />
+          ))}
+
+          {/* adsasd */}
           <h2 className="totalPrice">Total: 19,999 LE</h2>
           <div className="buttonContainer">
             <button className="reviewBtn">Review Cart</button>

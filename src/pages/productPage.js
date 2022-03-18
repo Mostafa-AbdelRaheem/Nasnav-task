@@ -15,19 +15,27 @@ class ProductPage extends Component {
     this.setState({ myCartStatus: true });
   };
   render() {
-    // console.log("the props ", this.props);
-
+    console.log("the props ProductPage", this.props);
     return (
       <div>
-        <Header openMyCart={this.handleOpeningMyCart} />
-        <Product product={this.props.products[0]} />
+        <Header
+          itemsInCart={this.props.itemsInCart}
+          openMyCart={this.handleOpeningMyCart}
+        />
+        <Product
+          onAddingItem={this.props.onAddingItem}
+          product={this.props.products[0]}
+        />
         <SimilarProducts
           selectedProduct={this.props.products[0]}
           products={this.props.products}
         />
         <Footer />
         {this.state.myCartStatus && (
-          <MyCart closeMyCart={this.handleClosingMyCart} />
+          <MyCart
+            myCart={this.props.myCart}
+            closeMyCart={this.handleClosingMyCart}
+          />
         )}
       </div>
     );

@@ -3,11 +3,6 @@ import ProductCard from "./ProductCard";
 
 class SimilarProducts extends Component {
   render() {
-    console.log("similar products", this.props);
-    // console.log(
-    //   "the products",
-    //   this.props.products.filter((product) => product.id === 1)
-    // );
     return (
       <div className="similarMainProductsContainer">
         <h2 className="similarProductsHeader">Similar Products</h2>

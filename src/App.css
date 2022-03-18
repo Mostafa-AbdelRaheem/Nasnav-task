@@ -10,7 +10,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +18,7 @@
       justify-content: space-around;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,7 +108,7 @@
   font-weight: 400;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -259,7 +259,26 @@
   margin: auto 0;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerMiddelContainer .headerMiddel .right .cart {
+  position: relative;
+}
+
+.headerMiddelContainer .headerMiddel .right .cart .backgourdContainer {
+  position: absolute;
+  left: 17px;
+  top: 9px;
+}
+
+.headerMiddelContainer .headerMiddel .right .cart .cartItemsQuantity {
+  position: absolute;
+  left: 21px;
+  top: 11px;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,7 +390,7 @@
   margin: 0;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -752,7 +771,7 @@
   background-color: var(--primary-color);
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -822,7 +841,7 @@
   color: #575756;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,27 +852,62 @@
 .productCardContainer {
   margin: 0 5px;
   padding: 5px;
-  border: 0.755px solid #ececec;
+  width: 268px;
+  height: 440px;
+  /* UI Properties */
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 5px #00000026;
+          box-shadow: 0px 0px 5px #00000026;
   border-radius: 5px;
 }
 
-.productCardContainer .imageContainer {
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: 100%;
+.productCardContainer .visualContentContainer {
+  position: relative;
 }
 
-.productCardContainer .imageContainer img {
+.productCardContainer .visualContentContainer .imageContainer {
+  margin: 0 auto;
+  width: 254px;
+  height: 254px;
+}
+
+.productCardContainer .visualContentContainer .imageContainer img {
   width: 100%;
 }
 
-.productCardContainer .description {
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 14px;
+.productCardContainer .visualContentContainer .imageRotationContainer {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  -webkit-box-shadow: 0px 0px 3px #00000040;
+          box-shadow: 0px 0px 3px #00000040;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 5px;
+  top: 5px;
+  left: 5px;
+  z-index: 2;
 }
 
-.productCardContainer .middelContainer {
+.productCardContainer .visualContentContainer .imageRotationContainer img {
+  width: 100%;
+}
+
+.productCardContainer .cardBottom {
+  padding: 5px;
+}
+
+.productCardContainer .cardBottom .description {
+  font-size: 14px;
+  font-weight: 600;
+  width: 236px;
+  height: 42px;
+  letter-spacing: 0px;
+  color: #1d1d1b;
+  margin-right: auto;
+}
+
+.productCardContainer .cardBottom .middelContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -862,8 +916,8 @@
           justify-content: space-between;
 }
 
-.productCardContainer .middelContainer .priceContainer {
-  width: 95px;
+.productCardContainer .cardBottom .middelContainer .priceContainer {
+  width: 127px;
   max-height: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -874,19 +928,20 @@
           flex-direction: column;
 }
 
-.productCardContainer .middelContainer .priceContainer .price {
+.productCardContainer .cardBottom .middelContainer .priceContainer .price {
   color: var(--secondary-color);
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 
-.productCardContainer .middelContainer .priceContainer .price span {
+.productCardContainer .cardBottom .middelContainer .priceContainer .price span {
   color: var(--secondary-color);
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
-.productCardContainer .middelContainer .priceContainer .discountContainer {
+.productCardContainer .cardBottom .middelContainer .priceContainer .discountContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -895,53 +950,90 @@
           justify-content: space-between;
 }
 
-.productCardContainer .middelContainer .priceContainer .discountContainer .beforePrice {
+.productCardContainer .cardBottom .middelContainer .priceContainer .discountContainer .beforePrice {
   position: relative;
-  font-family: Montserrat;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   color: #a7a9ac;
   text-decoration: line-through;
 }
 
-.productCardContainer .middelContainer .priceContainer .discountContainer .beforePrice span {
+.productCardContainer .cardBottom .middelContainer .priceContainer .discountContainer .beforePrice span {
   font-size: 10px;
-  font-weight: normal;
+  font-weight: 400;
   color: #a7a9ac;
 }
 
-.productCardContainer .middelContainer .priceContainer .discountContainer .discout {
-  font-family: Montserrat;
-  font-weight: normal;
-  font-size: 10px;
+.productCardContainer .cardBottom .middelContainer .priceContainer .discountContainer .discout {
+  width: 52px;
+  height: 18px;
   background-color: #fff200;
-  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 400;
+  padding-top: 3px;
+  padding-left: 17px;
 }
 
-.productCardContainer .locationContainer {
-  width: 100%;
-}
-
-.productCardContainer .locationContainer .location {
+.productCardContainer .cardBottom .reviewsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  width: 200px;
 }
 
-.productCardContainer .locationContainer .location p {
+.productCardContainer .cardBottom .reviewsContainer .starsMainContainer {
+  margin: auto 0;
+  width: 130px;
+}
+
+.productCardContainer .cardBottom .reviewsContainer .starsMainContainer .starsContainer {
+  width: 21px;
+  height: 20px;
+}
+
+.productCardContainer .cardBottom .reviewsContainer .starsMainContainer .starsContainer .stars {
+  width: 100%;
+  height: 100%;
+}
+
+.productCardContainer .cardBottom .reviewsContainer .rating .ratingText {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productCardContainer .cardBottom .locationContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.productCardContainer .cardBottom .locationContainer .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.productCardContainer .cardBottom .locationContainer .location .destination {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 500;
+  margin: 5px;
 }
 
-.productCardContainer .locationContainer .location p span {
+.productCardContainer .cardBottom .locationContainer .location .destination span {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1106,13 +1198,19 @@
   margin-right: 10px;
 }
 
-.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .reviewsContainer, .productCardContainer .locationContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard, .myCartMainContainer .mianContentContainer .buttonContainer {
+.headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.myCartMainContainer .mianContentContainer .mainCartHeader, .myCartMainContainer .mianContentContainer .ItemCardContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
+  max-width: 411px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .myCartMainContainer .mianContentContainer .buttonContainer .reviewBtn, .myCartMainContainer .mianContentContainer .buttonContainer .checkoutBtn {
@@ -1152,9 +1250,12 @@
 }
 
 .myCartMainContainer .mianContentContainer .closeImageContainer {
+  position: absolute;
+  right: 25px;
   width: 16px;
+  margin-top: 25px;
+  margin-right: 15px;
   height: 16px;
-  margin-right: 0;
   cursor: pointer;
 }
 
@@ -1163,6 +1264,8 @@
 }
 
 .myCartMainContainer .mianContentContainer .mainCartTitle {
+  text-align: center;
+  margin-top: 50px;
   font-size: 28px;
   font-weight: 600px;
   color: var(--secondary-color);
@@ -1172,11 +1275,9 @@
   font-size: 18px;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer {
-  margin: auto 0;
-}
-
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard {
+  padding: 5px;
+  margin: 10px 0;
   max-width: 411px;
   max-height: 120px;
   background: #ffffff;
@@ -1184,37 +1285,60 @@
   border-radius: 7px;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .imageContainer {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .imageContainer {
   width: 104px;
   height: 104px;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .imageContainer img {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .imageContainer img {
   width: 100%;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .contentContainer .description {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer {
+  width: 285px;
+}
+
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .description {
+  width: 267px;
+  min-height: 42px;
   font-size: 14px;
   font-weight: 600;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .contentContainer .quantity {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer .quantityPriceContainer .quantity {
+  padding-top: 5px;
+  max-width: 210px;
+  min-height: 21px;
   font-size: 11px;
   font-weight: 600;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .contentContainer .currentPrice {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer .quantityPriceContainer .currentPrice {
+  margin: 0;
+  padding-top: 5px;
+  max-width: 181px;
+  min-height: 34px;
   font-size: 20px;
   font-weight: 600;
   color: var(--secondary-color);
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .contentContainer .currentPrice .currency {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer .quantityPriceContainer .currentPrice .currency {
   font-weight: 400;
   font-size: 14px;
 }
 
-.myCartMainContainer .mianContentContainer .purschasedItemCardContainer .purschasedItemCard .contentContainer .removeBtn {
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer .removeBtnContainer {
+  padding-bottom: 15px;
+}
+
+.myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer .removeBtnContainer .removeBtn {
   width: 80px;
   height: 24px;
   background: #fff200 0% 0% no-repeat padding-box;
@@ -1222,9 +1346,11 @@
   border: none;
   font-size: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .myCartMainContainer .mianContentContainer .totalPrice {
+  text-align: center;
   font-size: 22px;
   font-weight: 600;
 }

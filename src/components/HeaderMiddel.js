@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class HeaderMiddel extends Component {
   state = {};
   render() {
+    // console.log("the middel props", this.props.itemsInCart);
     return (
       <div className="headerMiddelContainer">
         <div className="headerMiddel">
@@ -19,6 +20,14 @@ class HeaderMiddel extends Component {
           </div>
           <div className="right">
             <div onClick={this.props.openMyCart} className="cart">
+              <div className="numberOfItems">
+                <div className="backgourdContainer">
+                  <img src="./images/Rectangle 669.svg" />
+                </div>
+                <p className="cartItemsQuantity">
+                  {this.props.itemsInCart.length}
+                </p>
+              </div>
               <div className="imageContainer">
                 <img src="./images/Path 772.svg" />
               </div>

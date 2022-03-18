@@ -5,6 +5,13 @@
   justify-content: space-between;
 }
 
+%alignment {
+  // for cart Item alignment
+  max-width: 411px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 %reviewBtn {
   font-size: 12px;
   font-weight: 600;
@@ -40,25 +47,33 @@
     margin-left: auto;
     margin-right: auto;
     .closeImageContainer {
+      position: absolute;
+      right: 25px;
       width: 16px;
+      margin-top: 25px;
+      margin-right: 15px;
       height: 16px;
-      margin-right: 0;
       cursor: pointer;
       img {
         width: 100%;
       }
     }
     .mainCartTitle {
+      text-align: center;
+      margin-top: 50px;
       font-size: 28px;
       font-weight: 600px;
       color: var(--secondary-color);
     }
     .mainCartHeader {
+      @extend %alignment;
       font-size: 18px;
     }
-    .purschasedItemCardContainer {
-      margin: auto 0;
-      .purschasedItemCard {
+    .ItemCardContainer {
+      @extend %alignment;
+      .ItemCard {
+        padding: 5px;
+        margin: 10px 0;
         @extend %flex-row;
         max-width: 411px;
         max-height: 120px;
@@ -73,41 +88,67 @@
           }
         }
         .contentContainer {
+          width: 285px;
           .description {
+            width: 267px;
+            min-height: 42px;
             font-size: 14px;
             font-weight: 600;
           }
-          .quantity {
-            font-size: 11px;
-            font-weight: 600;
-          }
-          .currentPrice {
-            font-size: 20px;
-            font-weight: 600;
-            color: var(--secondary-color);
-            .currency {
-              font-weight: 400;
-              font-size: 14px;
+          .bottomContainer {
+            @extend %flex-row;
+            align-items: end;
+            .quantityPriceContainer {
+              .quantity {
+                padding-top: 5px;
+                max-width: 210px;
+                min-height: 21px;
+                font-size: 11px;
+                font-weight: 600;
+              }
+              .currentPrice {
+                margin: 0;
+                padding-top: 5px;
+                max-width: 181px;
+                min-height: 34px;
+                font-size: 20px;
+                font-weight: 600;
+                color: var(--secondary-color);
+                .currency {
+                  font-weight: 400;
+                  font-size: 14px;
+                }
+              }
+            }
+            .removeBtnContainer {
+              padding-bottom: 15px;
+              .removeBtn {
+                width: 80px;
+                height: 24px;
+                background: #fff200 0% 0% no-repeat padding-box;
+                border-radius: 12px;
+                border: none;
+                font-size: 10px;
+                font-weight: 600;
+                cursor: pointer;
+                // margin-top: 15px;
+              }
             }
           }
-          .removeBtn {
-            width: 80px;
-            height: 24px;
-            background: #fff200 0% 0% no-repeat padding-box;
-            border-radius: 12px;
-            border: none;
-            font-size: 10px;
-            font-weight: 600;
-          }
+          //
         }
       }
     }
     .totalPrice {
+      // @extend %alignment;
+      text-align: center;
       font-size: 22px;
       font-weight: 600;
     }
     .buttonContainer {
       @extend %flex-row;
+      @extend %alignment;
+      // max-height: 120px;%adjustment
       .reviewBtn {
         @extend %reviewBtn;
         background: var(--primary-color);
