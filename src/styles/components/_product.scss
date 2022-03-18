@@ -11,10 +11,22 @@
   height: 37px;
   border-radius: 50%;
   border-style: none;
+  cursor: pointer;
   img {
     margin: auto;
     display: flex;
   }
+}
+
+%Btn {
+  // for add to cart button and Pickup button
+  font-size: 16px;
+  font-weight: 600;
+  width: 252px;
+  height: 54px;
+  border-radius: 27px;
+  border-style: none;
+  cursor: pointer;
 }
 
 %nav-icon {
@@ -299,23 +311,13 @@
     .orderContainer {
       @extend %flex-row;
       .cartBtn {
+        @extend %Btn;
         color: white;
-        font-size: 16px;
-        font-weight: 600;
-        width: 252px;
-        height: 54px;
         background-color: var(--secondary-color);
-        border-radius: 27px;
-        border-style: none;
       }
       .pickBtn {
-        font-size: 16px;
-        font-weight: 600;
-        width: 252px;
-        height: 54px;
+        @extend %Btn;
         background-color: var(--primary-color);
-        border-radius: 27px;
-        border-style: none;
       }
     }
   }

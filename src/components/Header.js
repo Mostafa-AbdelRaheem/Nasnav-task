@@ -9,14 +9,8 @@ class Header extends Component {
     return (
       <div className="header">
         <HeaderTop />
-        <HeaderMiddel />
+        <HeaderMiddel openMyCart={this.props.openMyCart} />
         <HeaderBottom />
-        {/* <div className="pathContainer">
-          <h3 className="path">
-            Men/Clothing/Tops/Adidas/Adidas Black T-shirt
-          </h3>
-        </div> */}
-        {/*style border-bottom: 1px solid gray */}
       </div>
     );
   }

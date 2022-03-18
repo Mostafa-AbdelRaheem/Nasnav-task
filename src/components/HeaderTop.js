@@ -16,9 +16,7 @@ class HeaderTop extends Component {
           </div>
           <div className="middel">
             <div className="headerArrow">
-              <a href="#">
-                <img src="./images/Path 797.svg" />
-              </a>
+              <img src="./images/Path 797.svg" />
             </div>
             <p className="offerText">
               Valentine’s Day Offers! Buy Two Get One Free{" "}
@@ -27,9 +25,7 @@ class HeaderTop extends Component {
               </a>
             </p>
             <div className="headerArrow">
-              <a href="#">
-                <img src="./images/Path 796.svg" />
-              </a>
+              <img src="./images/Path 796.svg" />
             </div>
           </div>
           <div className="right">

@@ -18,7 +18,7 @@ class HeaderMiddel extends Component {
             </div>
           </div>
           <div className="right">
-            <div className="cart">
+            <div onClick={this.props.openMyCart} className="cart">
               <div className="imageContainer">
                 <img src="./images/Path 772.svg" />
               </div>

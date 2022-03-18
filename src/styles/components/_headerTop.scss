@@ -7,6 +7,7 @@
 
 %headerTopIcons {
   @extend %flex-row;
+  cursor: pointer;
   margin: 0 5px;
   .imageContainer {
     margin: auto;
@@ -44,6 +45,7 @@
     .middel {
       @extend %flex-row;
       .headerArrow {
+        cursor: pointer;
         margin: auto 0;
       }
       .offerText {

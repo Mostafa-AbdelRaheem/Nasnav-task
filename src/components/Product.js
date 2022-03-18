@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class Product extends Component {
   render() {
-    console.log("the this.props", this.props.product);
     return (
       <div className="productContainer">
         {this.props.product && (

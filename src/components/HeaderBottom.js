@@ -8,27 +8,13 @@ class HeaderBottom extends Component {
         <div className="navbarContainer">
           <div className="categoryContainer">
             <ul className="categoryList">
-              <li>
-                <a href="#">Men</a>
-              </li>
-              <li>
-                <a href="#">Women</a>
-              </li>
-              <li>
-                <a href="#">Unisex</a>
-              </li>
-              <li>
-                <a href="#">Kids</a>
-              </li>
-              <li>
-                <a href="#">Best Sellers</a>
-              </li>
-              <li>
-                <a href="#">New Arrivals</a>
-              </li>
-              <li>
-                <a href="#">Offers</a>
-              </li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>Unisex</li>
+              <li>Kids</li>
+              <li>Best Sellers</li>
+              <li>New Arrivals</li>
+              <li>Offers</li>
             </ul>
           </div>
           <div className="pathContainer">
