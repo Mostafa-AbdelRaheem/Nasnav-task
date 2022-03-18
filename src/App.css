@@ -1075,23 +1075,40 @@
 }
 
 .footerMainContainer .footerContainer {
-  padding-top: 15px;
+  padding-top: 35px;
   padding-bottom: 15px;
 }
 
 .footerMainContainer .footerUpper {
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #666565;
   padding-bottom: 25px;
 }
 
 .footerMainContainer .footerUpper .leftContainer {
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   padding: 0 20px;
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid #666565;
 }
 
-.footerMainContainer .footerUpper .leftContainer p {
+.footerMainContainer .footerUpper .leftContainer .imageContainer {
+  max-width: 220px;
+  max-height: 57px;
+}
+
+.footerMainContainer .footerUpper .leftContainer .imageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerMainContainer .footerUpper .leftContainer .textContainer {
+  margin: 35px auto 0 auto;
+  width: 100%;
+  width: 494px;
+  height: 252px;
+}
+
+.footerMainContainer .footerUpper .leftContainer .textContainer .text {
   color: #ffffff;
   font-size: 16px;
   font-weight: 300;
@@ -1100,16 +1117,20 @@
 .footerMainContainer .footerUpper .rightContainer {
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
-  padding: 0 20px;
+  padding-left: 30px;
 }
 
-.footerMainContainer .footerUpper .rightContainer .searchBox p {
+.footerMainContainer .footerUpper .rightContainer .searchBox .searchBoxHeader {
   font-size: 18px;
+  font-weight: 400;
   color: #ffffff;
 }
 
 .footerMainContainer .footerUpper .rightContainer .searchBox .input {
   background-color: white;
+  border-radius: 24px;
+  width: 576px;
+  height: 48px;
   position: relative;
   height: 40px;
 }
@@ -1122,27 +1143,75 @@
   height: 100%;
   border: none;
   outline: none;
+  left: 15px;
   font-size: 16px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input input::-webkit-input-placeholder {
+  color: var(--secondary-color);
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input input:-ms-input-placeholder {
+  color: var(--secondary-color);
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input input::-ms-input-placeholder {
+  color: var(--secondary-color);
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input input::placeholder {
+  color: var(--secondary-color);
 }
 
 .footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn {
   background-color: var(--primary-color);
-  width: 120px;
-  height: 38px;
-  border-radius: 70px;
-  right: 0;
+  width: 116px;
+  height: 34px;
+  border-radius: 19px;
   z-index: 10;
   position: absolute;
+  top: 3px;
+  right: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 10px 0 15px;
 }
 
-.footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn p {
+.footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn .textContainer {
+  margin: auto 0;
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn .textContainer .text {
   color: black;
+  font-size: 10px;
+  font-weight: 500;
 }
 
-.footerMainContainer .footerUpper .rightContainer .info .contacts ul {
+.footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn .imageContainer {
+  margin: auto 0;
+  width: 21px;
+  height: 21px;
+}
+
+.footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn .imageContainer img {
+  width: 100%;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info {
+  margin-top: 25px;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info .contactsContainer {
+  padding-right: 140px;
+  border-right: 1px solid #666565;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info .contactsContainer .contants {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
   list-style-type: none;
@@ -1160,28 +1229,55 @@
   height: 100%;
 }
 
-.footerMainContainer .footerUpper .rightContainer .info .contacts ul li {
+.footerMainContainer .footerUpper .rightContainer .info .contactsContainer .contants li {
   font-size: 16px;
   color: white;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 12px;
 }
 
 .footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer {
-  -ms-flex-preferred-size: 35%;
-      flex-basis: 35%;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
 }
 
 .footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 150px;
 }
 
-.footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia p {
+.footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia .imageContainer {
+  width: 33px;
+  height: 33px;
+  margin: auto;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia .imageContainer img {
+  width: 100%;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia .textContainer {
+  margin: auto;
+}
+
+.footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia .textContainer .text {
   color: white;
-  margin-left: 10px;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footerMainContainer .footerBottom {
+  margin-top: 25px;
 }
 
 .footerMainContainer .footerBottom .copyrights {
+  font-size: 16px;
+  font-weight: 300;
   color: white;
 }
 

@@ -8,45 +8,48 @@ class Footer extends Component {
           <div className="footerUpper">
             <div className="leftContainer">
               <div className="imageContainer">
-                <img src="./images/Group 1436.svg" />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                  aliquam erat volutpat.
-                </p>
-                <p>
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                  consequat. Duis autem vel eum iriure dolor in hendrerit in
-                  vulputate velit esse molestie consequat, vel illum dolore eu
-                  feugiat nulla. Lorem ipsum dolor sit amet, consectetuer
-                  adipiscing elit, sed dia m nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                  minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                  lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                  Duis autem vel eum iriure dolor in hendrerit in vulputate
-                  velit esse molestie consequat, vel illum dolore eu feugiat
-                  nulla facilisis at vero eros et accumsan et iusto odio
-                  dignissim qui blandit
-                </p>
+                <div className="imageContainer">
+                  <img src="./images/Group 1436.svg" />
+                </div>
+                <div className="textContainer">
+                  <p className="text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat.
+                  </p>
+                  <p className="text">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                    consequat. Duis autem vel eum iriure dolor in hendrerit in
+                    vulputate velit esse molestie consequat, vel illum dolore eu
+                    feugiat nulla. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed dia
+                  </p>
+                  <p className="text">
+                    m nonummy nibh euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                  </p>
+                </div>
               </div>
             </div>
             <div className="rightContainer">
               <div className="searchBox">
-                <p>Subscribe to our newsletter</p>
+                <p className="searchBoxHeader">Subscribe to our newsletter</p>
                 <div className="input">
                   <input type="text" placeholder="Enter Your Mail" />
                   <div className="subscribeBtn">
-                    <p>Subscribe</p>
-                    <img src="./images/Group 1431.svg" />
+                    <div className="textContainer">
+                      <p className="text">Subscribe</p>
+                    </div>
+                    <div className="imageContainer">
+                      <img src="./images/Group 1431.svg" />
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="info">
-                <div className="contacts">
-                  <ul>
+                <div className="contactsContainer">
+                  <ul className="contants">
                     <li> About Us</li>
                     <li> Contact Us</li>
                     <li> Track Order</li>
@@ -58,20 +61,36 @@ class Footer extends Component {
                 </div>
                 <div className="socialMediaContainer">
                   <div className="socialMedia">
-                    <img src="./images/Group 1432.svg" />
-                    <p>/YESHTERY</p>
+                    <div className="imageContainer">
+                      <img src="./images/Group 1432.svg" />
+                    </div>
+                    <div className="textContainer">
+                      <p className="text">/YESHTERY</p>
+                    </div>
                   </div>
                   <div className="socialMedia">
-                    <img src="./images/Group 1435.svg" />
-                    <p>/YESHTERY</p>
+                    <div className="imageContainer">
+                      <img src="./images/Group 1435.svg" />
+                    </div>
+                    <div className="textContainer">
+                      <p className="text">/YESHTERY</p>
+                    </div>
                   </div>
                   <div className="socialMedia">
-                    <img src="./images/Group 1433.svg" />
-                    <p>/YESHTERY</p>
+                    <div className="imageContainer">
+                      <img src="./images/Group 1433.svg" />
+                    </div>
+                    <div className="textContainer">
+                      <p className="text">/YESHTERY</p>
+                    </div>
                   </div>
                   <div className="socialMedia">
-                    <img src="./images/Group 1434.svg" />
-                    <p>/YESHTERY</p>
+                    <div className="imageContainer">
+                      <img src="./images/Group 1434.svg" />
+                    </div>
+                    <div className="textContainer">
+                      <p className="text">/YESHTERY</p>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -13,7 +13,7 @@ class ProductCard extends Component {
                 <img src={this.props.product.gallery[0]} />
               </div>
               <div className="imageRotationContainer">
-                <img src="./images/Group 577.svg" />
+                <img src="./images/Group 338.svg" />
               </div>
             </div>
             <div className="cardBottom">
