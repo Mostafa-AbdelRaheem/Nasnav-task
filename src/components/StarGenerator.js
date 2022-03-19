@@ -10,7 +10,11 @@ class StarGenerator extends Component {
             .fill()
             .map((_, i) => (
               <div key={i} className="starContainer">
-                <img className="stars" src={this.props.fullStarSrcPath} />
+                <img
+                  className="stars"
+                  src={this.props.fullStarSrcPath}
+                  alt="full star for ratting"
+                />
               </div>
             ))}
         </>
@@ -19,7 +23,11 @@ class StarGenerator extends Component {
             .fill()
             .map((_, i) => (
               <div key={i} className="starContainer">
-                <img className="stars" src={this.props.emptyStarSrcPath} />
+                <img
+                  className="stars"
+                  src={this.props.emptyStarSrcPath}
+                  alt="empty star for ratting"
+                />
               </div>
             ))}
         </>

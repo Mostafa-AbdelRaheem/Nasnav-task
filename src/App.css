@@ -106,6 +106,7 @@
   text-decoration: underline;
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .headerTopContainer .headerTop .right .contact, .headerTopContainer .headerTop .right .trackOrder, .headerTopContainer .headerTop .right .findAStore, .headerTopContainer .headerTop, .headerTopContainer .headerTop .left, .headerTopContainer .headerTop .middel, .headerTopContainer .headerTop .right, .headerMiddelContainer .headerMiddel .right .cart, .headerMiddelContainer .headerMiddel .right .wishList, .headerMiddelContainer .headerMiddel .right .login, .headerMiddelContainer .headerMiddel, .headerMiddelContainer .headerMiddel .search, .headerMiddelContainer .headerMiddel .middel, .headerMiddelContainer .headerMiddel .right, .productContainer, .productContainer .visualContainer .galleryContainer, .productContainer .visualContainer .gallery, .productContainer .contentContainer .reviewsContainer .starsMainContainer, .productContainer .contentContainer .sizeContainer .sizeList, .productContainer .contentContainer .quantityMainContainer .quantityContainer, .productContainer .contentContainer .orderContainer, .similarMainProductsContainer .similarProductsContainer, .productCardContainer .cardBottom .reviewsContainer .starsMainContainer, .footerMainContainer .footerUpper, .footerMainContainer .footerUpper .rightContainer .info, .footerMainContainer .footerBottom, .footerMainContainer .footerBottom .poweredByContainer, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard, .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard .contentContainer .bottomContainer, .myCartMainContainer .mianContentContainer .buttonContainer {
@@ -1167,6 +1168,7 @@
 
 .footerMainContainer .footerUpper .rightContainer .searchBox .input .subscribeBtn {
   background-color: var(--primary-color);
+  cursor: pointer;
   width: 116px;
   height: 34px;
   border-radius: 19px;
@@ -1238,8 +1240,8 @@
 }
 
 .footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
 }
 
 .footerMainContainer .footerUpper .rightContainer .info .socialMediaContainer .socialMedia {
@@ -1330,6 +1332,7 @@
   height: 48px;
   border-radius: 24px;
   border-style: none;
+  cursor: pointer;
 }
 
 .myCartMainContainer .overLay {
@@ -1383,6 +1386,16 @@
 
 .myCartMainContainer .mianContentContainer .mainCartHeader {
   font-size: 18px;
+}
+
+.myCartMainContainer .mianContentContainer .ItemCardContainer {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 460px;
+}
+
+.myCartMainContainer .mianContentContainer .ItemCardContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .myCartMainContainer .mianContentContainer .ItemCardContainer .ItemCard {

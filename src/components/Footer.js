@@ -9,7 +9,7 @@ class Footer extends Component {
             <div className="leftContainer">
               <div className="imageContainer">
                 <div className="imageContainer">
-                  <img src="./images/Group 1436.svg" />
+                  <img src="./images/Group 1436.svg" alt="companyLogo" />
                 </div>
                 <div className="textContainer">
                   <p className="text">
@@ -42,7 +42,7 @@ class Footer extends Component {
                       <p className="text">Subscribe</p>
                     </div>
                     <div className="imageContainer">
-                      <img src="./images/Group 1431.svg" />
+                      <img src="./images/Group 1431.svg" alt="arrow" />
                     </div>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ class Footer extends Component {
                 <div className="socialMediaContainer">
                   <div className="socialMedia">
                     <div className="imageContainer">
-                      <img src="./images/Group 1432.svg" />
+                      <img src="./images/Group 1432.svg" alt="Facebook" />
                     </div>
                     <div className="textContainer">
                       <p className="text">/YESHTERY</p>
@@ -70,7 +70,7 @@ class Footer extends Component {
                   </div>
                   <div className="socialMedia">
                     <div className="imageContainer">
-                      <img src="./images/Group 1435.svg" />
+                      <img src="./images/Group 1435.svg" alt="" />
                     </div>
                     <div className="textContainer">
                       <p className="text">/YESHTERY</p>
@@ -78,7 +78,7 @@ class Footer extends Component {
                   </div>
                   <div className="socialMedia">
                     <div className="imageContainer">
-                      <img src="./images/Group 1433.svg" />
+                      <img src="./images/Group 1433.svg" alt="" />
                     </div>
                     <div className="textContainer">
                       <p className="text">/YESHTERY</p>
@@ -86,7 +86,7 @@ class Footer extends Component {
                   </div>
                   <div className="socialMedia">
                     <div className="imageContainer">
-                      <img src="./images/Group 1434.svg" />
+                      <img src="./images/Group 1434.svg" alt="" />
                     </div>
                     <div className="textContainer">
                       <p className="text">/YESHTERY</p>
@@ -99,14 +99,14 @@ class Footer extends Component {
           <div className="footerBottom">
             <p className="copyrights">© 2021 yeshtery, all rights reserved.</p>
             <div className="payment">
-              <img src="./images/Rectangle 586.png" />
-              <img src="./images/Group 1437.png" />
-              <img src="./images/Group 1438.png" />
+              <img src="./images/Rectangle 586.png" alt="" />
+              <img src="./images/Group 1437.png" alt="" />
+              <img src="./images/Group 1438.png" alt="" />
             </div>
             <div className="poweredByContainer">
               <p className="powerdBy">Powered By</p>
               <div className="imageConainer">
-                <img src="./images/Group 1439.svg" />
+                <img src="./images/Group 1439.svg" alt="" />
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HandlePrice from "./HandlePrice";
 import StarGenerator from "./StarGenerator";
 
 class Product extends Component {
@@ -9,32 +10,32 @@ class Product extends Component {
           <>
             <div className="visualContainer">
               <div className="mainImageContainer">
-                <img src={this.props.product.image} />
+                <img src={this.props.product.image} alt="" />
               </div>
               <div className="imageRotationContainer">
-                <img src="./images/Group 338.svg" />
+                <img alt="" src="./images/Group 338.svg" />
               </div>
               <div className="galleryContainer">
                 <div className="galleryArrow">
-                  <img src="./images/Path 347.svg" />
+                  <img alt="" src="./images/Path 347.svg" />
                 </div>
                 <ul className="gallery">
                   {this.props.product.gallery.map((path, index) => (
                     <li key={index}>
                       <div className="imageContainer">
-                        <img src={path} />
+                        <img alt="" src={path} />
                       </div>
                     </li>
                   ))}
                 </ul>
                 <div className="galleryArrow">
-                  <img src="./images/Path 346.svg" />
+                  <img alt="" src="./images/Path 346.svg" />
                 </div>
               </div>
             </div>
             <div className="contentContainer">
               <div className="brandImage">
-                <img src={this.props.product.brandImage} />
+                <img alt="" src={this.props.product.brandImage} />
               </div>
               <div className="description">
                 <p className="text">{this.props.product.description}</p>
@@ -61,21 +62,17 @@ class Product extends Component {
                 </div>
               </div>
               <div className="priceContainer">
-                {/* <div className="currentPrice"> */}
                 <p className="currentPrice">
-                  {this.props.product.price}
-                  <span className="currency">
-                    {" "}
-                    {this.props.product.currency}
-                  </span>
+                  <HandlePrice
+                    currency={this.props.product.currency}
+                    price={this.props.product.price}
+                  />
                 </p>
-                {/* </div> */}
                 <p className="beforePrice">
-                  {this.props.product.price}{" "}
-                  <span className="currency">
-                    {" "}
-                    {this.props.product.currency}
-                  </span>
+                  <HandlePrice
+                    currency={this.props.product.currency}
+                    price={this.props.product.price}
+                  />
                 </p>
                 <div className="discountContainer">
                   <p className="discount">{this.props.product.discount} off</p>
@@ -96,7 +93,7 @@ class Product extends Component {
                 <ul className="colorList">
                   {this.props.product.color.map((path, index) => (
                     <li className="color" key={index}>
-                      <img src={path} />
+                      <img alt="" src={path} />
                     </li>
                   ))}
                 </ul>
@@ -105,11 +102,11 @@ class Product extends Component {
                 <h3 className="quantityHeader">Quantity</h3>
                 <div className="quantityContainer">
                   <button className="increment">
-                    <img src="./images/Path 363.svg" />
+                    <img alt="" src="./images/Path 363.svg" />
                   </button>
                   <div className="quantity">1</div>
                   <button className="decrement">
-                    <img src="./images/Path 364.svg" />
+                    <img alt="" src="./images/Path 364.svg" />
                   </button>
                 </div>
               </div>

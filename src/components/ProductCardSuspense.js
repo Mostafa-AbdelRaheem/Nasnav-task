@@ -13,26 +13,8 @@ class ProductCardSuspense extends Component {
             style={{ width: "254px", height: "254px" }}
             className="imageContainer"
           >
-            <img src="./images/load-loading.gif" />
+            <img src="./images/load-loading.gif" alt="loading gif" />
           </div>
-        </div>
-        <div className="cardBottom">
-          <div className="description"></div>
-          <div className="middelContainer">
-            <div className="priceContainer">
-              <div className="price"></div>
-            </div>
-            <div className="brandImage">
-              <img />
-            </div>
-          </div>
-          <div className="reviewsContainer">
-            <div className="starsMainContainer"></div>
-            <div className="rating">
-              <p className="ratingText"></p>
-            </div>
-          </div>
-          <div className="locationContainer"></div>
         </div>
       </div>
     );

@@ -33,6 +33,7 @@ class ProductPage extends Component {
           <MyCart
             myCart={this.props.myCart}
             closeMyCart={this.handleClosingMyCart}
+            onRemovingItem={this.props.onRemovingItem}
           />
         )}
       </div>

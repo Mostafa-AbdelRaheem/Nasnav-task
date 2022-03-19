@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HandlePrice from "./HandlePrice";
 import StarGenerator from "./StarGenerator";
 
 class ProductCard extends Component {
@@ -10,10 +11,10 @@ class ProductCard extends Component {
           <>
             <div className="visualContentContainer">
               <div className="imageContainer">
-                <img src={this.props.product.gallery[0]} />
+                <img src={this.props.product.gallery[0]} alt="mainImage" />
               </div>
               <div className="imageRotationContainer">
-                <img src="./images/Group 338.svg" />
+                <img src="./images/Group 338.svg" alt="360 icon" />
               </div>
             </div>
             <div className="cardBottom">
@@ -22,11 +23,19 @@ class ProductCard extends Component {
               </div>
               <div className="middelContainer">
                 <div className="priceContainer">
-                  <div className="price">{this.props.product.price}</div>
+                  <div className="price">
+                    <HandlePrice
+                      currency={this.props.product.currency}
+                      price={this.props.product.price}
+                    />
+                  </div>
                   {this.props.product.discount && (
                     <div className="discountContainer">
                       <div className="beforePrice">
-                        {this.props.product.price}
+                        <HandlePrice
+                          currency={this.props.product.currency}
+                          price={this.props.product.price}
+                        />
                       </div>
                       <div className="discout">
                         {this.props.product.discount}
@@ -35,7 +44,7 @@ class ProductCard extends Component {
                   )}
                 </div>
                 <div className="brandImage">
-                  <img src={this.props.product.brandImage} />
+                  <img src={this.props.product.brandImage} alt="" />
                 </div>
               </div>
               <div className="reviewsContainer">
