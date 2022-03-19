@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import StarGenerator from "./StarGenerator";
 
 class Product extends Component {
   render() {
-    // console.log("product props", this.props);
     return (
       <div className="productContainer">
         {this.props.product && (
@@ -44,24 +44,12 @@ class Product extends Component {
               </div>
               <div className="reviewsContainer">
                 <div className="starsMainContainer">
-                  {Array(Math.floor(this.props.product.rate))
-                    .fill()
-                    .map((_, i) => (
-                      <div key={i} className="starContainer">
-                        <img className="stars" src="./images/Path 368.svg" />
-                      </div>
-                    ))}
-
-                  {Array(
-                    this.props.product.maxRate -
-                      Math.floor(this.props.product.rate)
-                  )
-                    .fill()
-                    .map((_, i) => (
-                      <div key={i} className="starContainer">
-                        <img className="stars" src="./images/Path 369.svg" />
-                      </div>
-                    ))}
+                  <StarGenerator
+                    fullStarSrcPath={"./images/Path 368.svg"}
+                    emptyStarSrcPath={"./images/Path 369.svg"}
+                    rate={this.props.product.rate}
+                    maxRate={this.props.product.maxRate}
+                  />
                 </div>
                 <div className="rating">
                   <p className="ratingText">

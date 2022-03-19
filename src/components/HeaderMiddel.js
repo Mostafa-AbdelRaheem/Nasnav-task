@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class HeaderMiddel extends Component {
   state = {};
   render() {
-    // console.log("the middel props", this.props.itemsInCart);
     return (
       <div className="headerMiddelContainer">
         <div className="headerMiddel">

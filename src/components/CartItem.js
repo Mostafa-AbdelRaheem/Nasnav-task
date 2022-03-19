@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class CartItem extends Component {
   state = {};
   render() {
-    console.log("cart Item props", this.props);
     return (
       <div className="ItemCardContainer">
         <div className="ItemCard">

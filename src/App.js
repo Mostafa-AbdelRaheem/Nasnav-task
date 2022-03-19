@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { Component } from "react";
 import ProductPage from "./pages/productPage";
-import productData from "./services/data.json";
+import { getData } from "./services/Data";
 
 class App extends Component {
   state = {
@@ -9,29 +9,35 @@ class App extends Component {
     myCart: [],
   };
   handleAddingToCart = (id) => {
-    // console.log("item Id", id);
     if (this.state.products.length !== 0) {
       const item = this.state.products.filter((item) => item.id === id);
-      // console.log("item", item[0]);
-      // console.log("my cart before", this.state.myCart);
       this.setState({ myCart: [...this.state.myCart, item[0]] });
-      // console.log("my cart after", this.state.myCart);
     }
   };
 
   componentDidMount() {
-    this.setState({ products: productData });
+    getData()
+      .then((res) => this.setState({ products: res }))
+      .catch((err) => {
+        console.error(err);
+      });
   }
 
   render() {
     return (
       <div className="App">
-        <ProductPage
-          itemsInCart={this.state.myCart}
-          products={this.state.products}
-          onAddingItem={this.handleAddingToCart}
-          myCart={this.state.myCart}
-        />
+        {this.state.products.length === 0 ? (
+          <div className="container">
+            <img src="./images/shopping-loader.gif" />
+          </div>
+        ) : (
+          <ProductPage
+            itemsInCart={this.state.myCart}
+            products={this.state.products}
+            onAddingItem={this.handleAddingToCart}
+            myCart={this.state.myCart}
+          />
+        )}
       </div>
     );
   }

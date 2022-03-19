@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import StarGenerator from "./StarGenerator";
 
 class ProductCard extends Component {
   state = {};
   render() {
-    // console.log("Hello card", this.props);
     return (
       <div className="productCardContainer">
         {this.props.product && (
@@ -40,24 +40,12 @@ class ProductCard extends Component {
               </div>
               <div className="reviewsContainer">
                 <div className="starsMainContainer">
-                  {Array(Math.floor(this.props.product.rate))
-                    .fill()
-                    .map((_, i) => (
-                      <div key={i} className="starContainer">
-                        <img className="stars" src="./images/Path 368.svg" />
-                      </div>
-                    ))}
-
-                  {Array(
-                    this.props.product.maxRate -
-                      Math.floor(this.props.product.rate)
-                  )
-                    .fill()
-                    .map((_, i) => (
-                      <div key={i} className="starContainer">
-                        <img className="stars" src="./images/Path 369.svg" />
-                      </div>
-                    ))}
+                  <StarGenerator
+                    fullStarSrcPath={"./images/Path 368.svg"}
+                    emptyStarSrcPath={"./images/Path 369.svg"}
+                    rate={this.props.product.rate}
+                    maxRate={this.props.product.maxRate}
+                  />
                 </div>
                 <div className="rating">
                   <p className="ratingText">

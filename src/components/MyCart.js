@@ -4,7 +4,6 @@ import CartItem from "./CartItem";
 class MyCart extends Component {
   state = {};
   render() {
-    console.log("myCart props", this.props);
     return (
       <div className="myCartMainContainer">
         <div className="overLay"></div>
@@ -17,8 +16,6 @@ class MyCart extends Component {
           {this.props.myCart.map((item, index) => (
             <CartItem key={index} itemData={item} />
           ))}
-
-          {/* adsasd */}
           <h2 className="totalPrice">Total: 19,999 LE</h2>
           <div className="buttonContainer">
             <button className="reviewBtn">Review Cart</button>

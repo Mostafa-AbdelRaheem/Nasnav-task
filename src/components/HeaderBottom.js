@@ -22,7 +22,6 @@ class HeaderBottom extends Component {
               Men / Clothing / Tops / Adidas / Adidas Black T-shirt
             </h3>
           </div>
-          {/*style border-bottom: 1px solid gray */}
         </div>
       </div>
     );

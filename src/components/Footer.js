@@ -105,7 +105,9 @@ class Footer extends Component {
             </div>
             <div className="poweredByContainer">
               <p className="powerdBy">Powered By</p>
-              <img src="./images/Group 1439.svg" />
+              <div className="imageConainer">
+                <img src="./images/Group 1439.svg" />
+              </div>
             </div>
           </div>
         </div>

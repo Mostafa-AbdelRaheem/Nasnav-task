@@ -9,13 +9,11 @@ class ProductPage extends Component {
   state = { myCartStatus: false };
   handleClosingMyCart = () => {
     this.setState({ myCartStatus: false });
-    // console.log("Closed Mycart");
   };
   handleOpeningMyCart = () => {
     this.setState({ myCartStatus: true });
   };
   render() {
-    console.log("the props ProductPage", this.props);
     return (
       <div>
         <Header
