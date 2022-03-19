@@ -2,7 +2,7 @@
   "name": "nasnav-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mostafa-abdelraheem.github.io/nasnav-task/",
+  "homepage": "https://mostafa-abdelraheem.github.io/nasnav-task",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
