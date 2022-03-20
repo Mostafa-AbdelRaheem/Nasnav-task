@@ -32,7 +32,6 @@ class MyCart extends Component {
               />
             ))}
           </div>
-          {/* {this.handleTotalCost()} */}
           <h2 className="totalPrice">Total: {this.handleTotalCost()} LE</h2>
           <div className="buttonContainer">
             <button className="reviewBtn">Review Cart</button>

@@ -3,6 +3,20 @@ import HandlePrice from "./HandlePrice";
 import StarGenerator from "./StarGenerator";
 
 class Product extends Component {
+  state = {
+    selectedColorAttrib: 0,
+    selectedSizeAttrib: 2,
+    quantity: 1,
+  };
+
+  handleSizeAttrib = (index) => {
+    this.setState({ selectedSizeAttrib: index });
+  };
+
+  selectedColorAttrib = (index) => {
+    this.setState({ selectedColorAttrib: index });
+  };
+
   render() {
     return (
       <div className="productContainer">
@@ -82,7 +96,15 @@ class Product extends Component {
                 <h3 className="sizeHeader">Size</h3>
                 <ul className="sizeList">
                   {this.props.product.size.map((size, index) => (
-                    <li className="size" key={index}>
+                    <li
+                      onClick={() => this.handleSizeAttrib(index)}
+                      className={`${
+                        this.state.selectedSizeAttrib === index
+                          ? "size selected"
+                          : "size"
+                      }`}
+                      key={index}
+                    >
                       {size}
                     </li>
                   ))}
@@ -92,7 +114,15 @@ class Product extends Component {
                 <h3 className="colorHeader">Color</h3>
                 <ul className="colorList">
                   {this.props.product.color.map((path, index) => (
-                    <li className="color" key={index}>
+                    <li
+                      onClick={() => this.selectedColorAttrib(index)}
+                      className={`${
+                        this.state.selectedColorAttrib === index
+                          ? "color selected"
+                          : "color"
+                      }`}
+                      key={index}
+                    >
                       <img alt="" src={path} />
                     </li>
                   ))}
@@ -104,14 +134,13 @@ class Product extends Component {
                   <button className="increment">
                     <img alt="" src="./images/Path 363.svg" />
                   </button>
-                  <div className="quantity">1</div>
+                  <div className="quantity">{this.state.quantity}</div>
                   <button className="decrement">
                     <img alt="" src="./images/Path 364.svg" />
                   </button>
                 </div>
               </div>
               <div className="orderContainer">
-                {/* <div className="addToCart"> */}
                 <button
                   onClick={() => this.props.onAddingItem(this.props.product.id)}
                   className="cartBtn"
@@ -119,7 +148,6 @@ class Product extends Component {
                   Add To Cart
                 </button>
 
-                {/* <div className="pickFromStore"> */}
                 <button className="pickBtn">Pickup From Store</button>
               </div>
             </div>
