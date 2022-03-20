@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import React, { Component } from "react";
 import ProductPage from "./pages/productPage";
 import { getData } from "./services/Data";

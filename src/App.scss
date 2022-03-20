@@ -1,20 +1,17 @@
-@import "./styles/global-rules";
-// @import "./styles/helper";
-@import "./styles/components/header";
-@import "./styles/components/headerTop";
-@import "./styles/components/headerMiddel";
-@import "./styles/components/headerBottom";
-@import "./styles/components/product";
-@import "./styles/components/similarProducts";
-@import "./styles/components/productCard";
-@import "./styles/components/footer";
-@import "./styles/components/myCart";
+:root {
+  --primary-color: #fff100;
+  --secondary-color: #542e90;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
 
 .container {
   position: fixed;
-  //   margin: auto;
-  //   width: 100%;
-  //   height: 100vh;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 50%;

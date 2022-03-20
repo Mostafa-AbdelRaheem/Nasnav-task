@@ -1,5 +1,6 @@
 import React, { Component, Suspense } from "react";
 import ProductCardSuspense from "./ProductCardSuspense";
+import "../styles/components/similarProducts.scss";
 
 const ProductCard = React.lazy(() => {
   return new Promise((resolve) => setTimeout(resolve, 2 * 1000)).then(() =>

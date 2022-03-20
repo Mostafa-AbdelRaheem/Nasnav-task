@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AALA,mBAKmB,CALT;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;AAED,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,MAAM;EAEd,KAAK,EAAE,KAAK;CASb;;AAZD,AAIE,mBAJiB,CAIjB,eAAe,CAAC;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAKb;;AAXH,AAOI,mBAPe,CAIjB,eAAe,CAGb,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "starGenerator.scss",
+        "../_helper.scss"
+    ],
+    "names": [],
+    "file": "starGenerator.css"
+}

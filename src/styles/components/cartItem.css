@@ -1,0 +1,83 @@
+.ItemCard, .ItemCard .contentContainer .bottomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ItemCard {
+  padding: 5px;
+  margin: 10px 0;
+  max-width: 411px;
+  max-height: 120px;
+  background: #ffffff;
+  border: 0.75px solid #ececec;
+  border-radius: 7px;
+}
+
+.ItemCard .imageContainer {
+  width: 104px;
+  height: 104px;
+}
+
+.ItemCard .imageContainer img {
+  width: 100%;
+}
+
+.ItemCard .contentContainer {
+  width: 285px;
+}
+
+.ItemCard .contentContainer .description {
+  width: 267px;
+  min-height: 42px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ItemCard .contentContainer .bottomContainer {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.ItemCard .contentContainer .bottomContainer .quantityPriceContainer .quantity {
+  padding-top: 5px;
+  max-width: 210px;
+  min-height: 21px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.ItemCard .contentContainer .bottomContainer .quantityPriceContainer .currentPrice {
+  margin: 0;
+  padding-top: 5px;
+  max-width: 181px;
+  min-height: 34px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.ItemCard .contentContainer .bottomContainer .quantityPriceContainer .currentPrice .currency {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ItemCard .contentContainer .bottomContainer .removeBtnContainer {
+  padding-bottom: 15px;
+}
+
+.ItemCard .contentContainer .bottomContainer .removeBtnContainer .removeBtn {
+  width: 80px;
+  height: 24px;
+  background: #fff200 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*# sourceMappingURL=cartItem.css.map */

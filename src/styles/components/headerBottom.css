@@ -1,0 +1,124 @@
+.categoryContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .categoryContainer {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .categoryContainer {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .categoryContainer {
+    width: 1170px;
+  }
+}
+
+.pathContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .pathContainer {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .pathContainer {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .pathContainer {
+    width: 1170px;
+  }
+}
+
+.headerBottomContainer {
+  height: 120px;
+  border-bottom: 0.5px solid #575756;
+}
+
+.headerBottomContainer .navbarContainer {
+  background-color: black;
+  height: 48px;
+}
+
+.headerBottomContainer .navbarContainer .categoryList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.headerBottomContainer .navbarContainer .categoryList li {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.headerBottomContainer .navbarContainer .categoryList li:last-child {
+  color: red;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.headerBottomContainer .pathContainer {
+  height: 84px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.headerBottomContainer .pathContainer .path {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.headerBottomContainer .pathContainer .path li .mainText {
+  font-size: 16px;
+  color: #1d1d1b;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+.headerBottomContainer .pathContainer .path li .mainText:last-child {
+  text-decoration: none;
+}
+
+.headerBottomContainer .pathContainer .path li p {
+  display: inline-block;
+  padding-left: 3px;
+  margin: 0;
+}
+/*# sourceMappingURL=headerBottom.css.map */

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CartItem from "./CartItem";
+import "../styles/components/myCart.scss";
 
 class MyCart extends Component {
   handleTotalCost = () => {

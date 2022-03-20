@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/components/headerTop.scss";
 
 class HeaderTop extends Component {
   state = {};

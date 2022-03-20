@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/components/headerBottom.scss";
 
 class HeaderBottom extends Component {
   state = {};
@@ -18,9 +19,27 @@ class HeaderBottom extends Component {
             </ul>
           </div>
           <div className="pathContainer">
-            <h3 className="path">
-              Men / Clothing / Tops / Adidas / Adidas Black T-shirt
-            </h3>
+            <ul className="path">
+              <li>
+                <p className="mainText">Men </p>
+                <p>/</p>
+              </li>
+              <li>
+                <p className="mainText">Clothing</p>
+                <p>/</p>
+              </li>
+              <li>
+                <p className="mainText">Tops</p>
+                <p>/</p>
+              </li>
+              <li>
+                <p className="mainText">Adidas</p>
+                <p>/</p>
+              </li>
+              <li>
+                <p className="mainText">Adidas Black T-shirt</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -1,0 +1,24 @@
+.starsMainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.starsMainContainer {
+  margin: auto 0;
+  width: 130px;
+}
+
+.starsMainContainer .starsContainer {
+  width: 21px;
+  height: 20px;
+}
+
+.starsMainContainer .starsContainer .stars {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=starGenerator.css.map */

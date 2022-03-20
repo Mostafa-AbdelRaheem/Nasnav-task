@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import HandlePrice from "./HandlePrice";
 import StarGenerator from "./StarGenerator";
+import "../styles/components/productCard.scss";
 
 class ProductCard extends Component {
   state = {};
+  handlePrice = (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  };
   render() {
     return (
       <div className="productCardContainer">
@@ -24,18 +27,20 @@ class ProductCard extends Component {
               <div className="middelContainer">
                 <div className="priceContainer">
                   <div className="price">
-                    <HandlePrice
-                      currency={this.props.product.currency}
-                      price={this.props.product.price}
-                    />
+                    {this.handlePrice(this.props.product.price)}
+                    <span className="currency">
+                      {" "}
+                      {this.props.product.currency}
+                    </span>
                   </div>
                   {this.props.product.discount && (
                     <div className="discountContainer">
                       <div className="beforePrice">
-                        <HandlePrice
-                          currency={this.props.product.currency}
-                          price={this.props.product.price}
-                        />
+                        {this.handlePrice(this.props.product.price)}
+                        <span className="currency">
+                          {" "}
+                          {this.props.product.currency}
+                        </span>
                       </div>
                       <div className="discout">
                         {this.props.product.discount}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import HandlePrice from "./HandlePrice";
 import StarGenerator from "./StarGenerator";
+import "../styles/components/product.scss";
 
 class Product extends Component {
   state = {
@@ -15,6 +15,9 @@ class Product extends Component {
 
   selectedColorAttrib = (index) => {
     this.setState({ selectedColorAttrib: index });
+  };
+  handlePrice = (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
 
   render() {
@@ -77,16 +80,15 @@ class Product extends Component {
               </div>
               <div className="priceContainer">
                 <p className="currentPrice">
-                  <HandlePrice
-                    currency={this.props.product.currency}
-                    price={this.props.product.price}
-                  />
+                  {this.handlePrice(this.props.product.price)}
+                  <span className="currency">
+                    {" "}
+                    {this.props.product.currency}
+                  </span>
                 </p>
                 <p className="beforePrice">
-                  <HandlePrice
-                    currency={this.props.product.currency}
-                    price={this.props.product.price}
-                  />
+                  {this.handlePrice(this.props.product.price)}
+                  <span className="currency"></span>
                 </p>
                 <div className="discountContainer">
                   <p className="discount">{this.props.product.discount} off</p>

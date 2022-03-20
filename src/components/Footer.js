@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "../styles/components/footer.scss";
+
 class Footer extends Component {
   state = {};
   render() {
@@ -8,28 +10,26 @@ class Footer extends Component {
           <div className="footerUpper">
             <div className="leftContainer">
               <div className="imageContainer">
-                <div className="imageContainer">
-                  <img src="./images/Group 1436.svg" alt="companyLogo" />
-                </div>
-                <div className="textContainer">
-                  <p className="text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-                    magna aliquam erat volutpat.
-                  </p>
-                  <p className="text">
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                    consequat. Duis autem vel eum iriure dolor in hendrerit in
-                    vulputate velit esse molestie consequat, vel illum dolore eu
-                    feugiat nulla. Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed dia
-                  </p>
-                  <p className="text">
-                    m nonummy nibh euismod tincidunt ut laoreet dolore magna
-                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                  </p>
-                </div>
+                <img src="./images/Group 1436.svg" alt="companyLogo" />
+              </div>
+              <div className="leftTextContainer">
+                <p className="text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam erat volutpat.
+                </p>
+                <p className="text">
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                  consequat. Duis autem vel eum iriure dolor in hendrerit in
+                  vulputate velit esse molestie consequat, vel illum dolore eu
+                  feugiat nulla. Lorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit, sed dia
+                </p>
+                <p className="text">
+                  m nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                </p>
               </div>
             </div>
             <div className="rightContainer">

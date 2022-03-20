@@ -1,20 +1,13 @@
 import React, { Component } from "react";
+import "../styles/components/productCardSuspense.scss";
 
 class ProductCardSuspense extends Component {
   state = {};
   render() {
     return (
-      <div
-        style={{ width: "268px", height: "440px" }}
-        className="productCardContainer"
-      >
-        <div className="visualContentContainer">
-          <div
-            style={{ width: "254px", height: "254px" }}
-            className="imageContainer"
-          >
-            <img src="./images/load-loading.gif" alt="loading gif" />
-          </div>
+      <div className="suspenseProductCardContainer">
+        <div className="suspenseImageContainer">
+          <img src="./images/load-loading.gif" alt="loading gif" />
         </div>
       </div>
     );

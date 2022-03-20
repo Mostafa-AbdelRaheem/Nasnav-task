@@ -134,19 +134,7 @@
     .reviewsContainer {
       display: flex;
       justify-content: left;
-      .starsMainContainer {
-        margin: auto 0;
-        @extend %flex-row;
-        width: 130px;
-        .starsContainer {
-          width: 21px;
-          height: 20px;
-          .stars {
-            width: 100%;
-            height: 100%;
-          }
-        }
-      }
+
       .rating {
         margin: auto 15px auto 15px;
         .ratingText {

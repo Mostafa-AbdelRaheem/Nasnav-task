@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../styles/components/headerMiddel.scss";
 
 class HeaderMiddel extends Component {
   state = {};
