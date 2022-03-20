@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Nasnav-task/static/css/main.cdcdefdf.css",
-    "main.js": "/Nasnav-task/static/js/main.5dfe3191.js",
-    "static/js/960.bd8acd49.chunk.js": "/Nasnav-task/static/js/960.bd8acd49.chunk.js",
+    "main.css": "/Nasnav-task/static/css/main.0db8772d.css",
+    "main.js": "/Nasnav-task/static/js/main.ace0c6df.js",
+    "static/js/960.20e014be.chunk.js": "/Nasnav-task/static/js/960.20e014be.chunk.js",
     "index.html": "/Nasnav-task/index.html",
-    "main.cdcdefdf.css.map": "/Nasnav-task/static/css/main.cdcdefdf.css.map",
-    "main.5dfe3191.js.map": "/Nasnav-task/static/js/main.5dfe3191.js.map",
-    "960.bd8acd49.chunk.js.map": "/Nasnav-task/static/js/960.bd8acd49.chunk.js.map"
+    "main.0db8772d.css.map": "/Nasnav-task/static/css/main.0db8772d.css.map",
+    "main.ace0c6df.js.map": "/Nasnav-task/static/js/main.ace0c6df.js.map",
+    "960.20e014be.chunk.js.map": "/Nasnav-task/static/js/960.20e014be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdcdefdf.css",
-    "static/js/main.5dfe3191.js"
+    "static/css/main.0db8772d.css",
+    "static/js/main.ace0c6df.js"
   ]
 }
